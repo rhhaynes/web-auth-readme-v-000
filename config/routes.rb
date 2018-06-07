@@ -4,5 +4,4 @@ Rails.application.routes.draw do
   post '/search', to: 'searches#foursquare'
   
   get '/auth', to: 'sessions#create'
-
 end
